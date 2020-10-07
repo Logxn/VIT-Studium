@@ -13,7 +13,7 @@ public class Decimal2Binary
         var lastNum = dec;
         var binaryString = "";
 
-        // We want to divide starting number all the way down until we reach 0
+        // We want to divide the starting number all the way down until we reach 0
         while(lastNum != 0)
         {
             var remainder = lastNum % 2;
