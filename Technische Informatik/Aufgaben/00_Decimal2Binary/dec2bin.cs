@@ -8,7 +8,6 @@ using System;
 
 public class Decimal2Binary
 {
-    // We expect a string with the binary number
     public string Dec2Bin(int dec)
     {
         var lastNum = dec;
